@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 {
   
+=======
+{ 
+  "homepage": "https://abhiram9306.github.io/Weather-app",
+
+>>>>>>> 73b768712aac4b29ac924e7f55f2d80798c9e4c8
   "name": "weather",
   "private": true,
   "version": "0.0.0",
