@@ -31,6 +31,7 @@ function App() {
   };
 
   useEffect(() => {
+    // Fetch weather data when city changes
     const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
     fetchData(
       `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&days=3&q=${choose}`
