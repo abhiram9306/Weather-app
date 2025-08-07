@@ -33,7 +33,7 @@ function App() {
   useEffect(() => {
     const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
     fetchData(
-      `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&days=3&q=${choose}`
+      `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&days=3&q=${choose}`
     );
   }, [choose]);
   return (
